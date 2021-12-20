@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <com.example.demo.Camera.CameraSurfaceView
+            android:id="@+id/cameraSurfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    <com.example.demo.Camera.CameraSurfaceView
+            android:id="@+id/rectOnCamera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <Button
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20px"
+                android:id="@+id/takePic"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:background="#88427ac7"
+                android:text="拍照"
+                android:textColor="#aaa" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
